@@ -73,12 +73,10 @@ def push_dual(skill_name):
         commit_msg = f"refine: enhance implementation logic for {skill_name} engine"
         subprocess.run(["git", "-C", workdir, "commit", "-m", commit_msg], check=True)
         
-        # Push to Organization
+        # Push ONLY to Public / Organization
         subprocess.run(["git", "-C", workdir, "push", "origin", "main"], check=True)
-        # Push to Private
-        subprocess.run(["git", "-C", workdir, "push", "private", "main"], check=True)
         
-        notify_chris(f"🟢 **GitHub 精进成功**\n\n项目: {skill_name}\n变更: 已同步至 Organization & Private 仓库。\n格子: 今日 Contributions 持续增长。")
+        notify_chris(f"🟢 **GitHub 公开项目精进成功**\n\n项目: {skill_name}\n变更: 已同步至 Public 仓库。\n备注: 严格遵守指令，未变动任何 Private 项目。")
     except Exception as e:
         print(f"Git Error: {e}")
 
