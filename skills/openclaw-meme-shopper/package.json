@@ -1,0 +1,9 @@
+{
+  "name": "openclaw-meme-shopper",
+  "version": "1.0.0",
+  "description": "GenPark OpenClaw AI agent framework skill: openclaw-meme-shopper - Autonomous Meme Shopper Swarm.",
+  "main": "SKILL.md",
+  "author": "Chris P (GenPark) / OpenClaw Contributors",
+  "license": "MIT",
+  "keywords": ["genpark", "openclaw", "claw", "agent", "skill", "troll", "meme", "swarm", "automation"]
+}

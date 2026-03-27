@@ -1,0 +1,15 @@
+{
+  "name": "manus",
+  "version": "1.0.0",
+  "description": "Enter Manus Mode for extreme autonomy, deep reasoning, and autonomous execution loops.",
+  "main": "SKILL.md",
+  "author": "Chris P",
+  "license": "MIT",
+  "keywords": [
+    "manus",
+    "agent",
+    "autonomous",
+    "browser",
+    "execution"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "genpark-circle",
+  "version": "1.0.0",
+  "description": "OpenClaw GenPark Agent Skill: genpark-circle",
+  "main": "SKILL.md",
+  "author": "Chris P (GenPark)",
+  "license": "MIT",
+  "keywords": ["genpark", "claw", "agent", "skill", "openclaw"]
+}

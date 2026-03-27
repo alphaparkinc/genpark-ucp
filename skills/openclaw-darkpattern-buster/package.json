@@ -1,0 +1,9 @@
+{
+  "name": "openclaw-darkpattern-buster",
+  "version": "1.0.2",
+  "description": "GenPark agent skill built on the OpenClaw AI agent framework: openclaw-darkpattern-buster - Consumer protection automation.",
+  "main": "SKILL.md",
+  "author": "Chris P (GenPark)",
+  "license": "MIT",
+  "keywords": ["genpark", "openclaw", "claw", "agent", "skill", "consumer-rights", "automation", "framework"]
+}

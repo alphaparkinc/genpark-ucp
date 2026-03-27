@@ -1,0 +1,9 @@
+{
+  "name": "genpark-sub-killer",
+  "version": "1.0.0",
+  "description": "OpenClaw GenPark Agent Skill: genpark-sub-killer",
+  "main": "SKILL.md",
+  "author": "Chris P (GenPark)",
+  "license": "MIT",
+  "keywords": ["genpark", "claw", "agent", "skill", "openclaw"]
+}
