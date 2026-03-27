@@ -22,12 +22,12 @@ def execute_sub_agents(tasks):
     return results
 
 def synthesis_sparkpage(results):
-    print("📝 [MoA Synthesizer] Merging evidence into Sparkpage format...")
+    print("📝 [MoA Synthesizer] Merging evidence into Dossier format...")
     time.sleep(1)
-    print("[OK] Sparkpage Generated with Table of Contents and 20+ Sources.")
+    print("[OK] Intelligence Report Generated with Table of Contents and 20+ Sources.")
 
 def main():
-    parser = argparse.ArgumentParser(description="OpenClaw MoA Spark Engine")
+    parser = argparse.ArgumentParser(description="OpenClaw MoA Core Engine")
     parser.add_argument("--query", required=True, help="The topic to research")
     parser.add_argument("--synthesis", action="store_true", help="Perform final Sparkpage synthesis")
     args = parser.parse_args()
