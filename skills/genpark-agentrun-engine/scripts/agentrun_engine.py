@@ -4,16 +4,16 @@ import json
 import asyncio
 import time
 
-class MuleRunEngine:
+class AgentRunEngine:
     """
-    Reverse-engineered MuleRun.com Logic:
+    Reverse-engineered AgentRun Logic:
     1. Always-On Persistence: Running tasks on dedicated (simulated) VMs.
     2. Proactive Monitoring: Trigger-based alerts and autonomous actions.
     3. End-to-End Execution: Moving from 'Answer' to 'Complete Task'.
     4. Collective Intelligence: Learning from successful workflow patterns.
     """
 
-    def __init__(self, agent_id="GenPark_Mule_01"):
+    def __init__(self, agent_id="GenPark_AgentRun_01"):
         self.agent_id = agent_id
         self.active_workflows = {}
         self.knowledge_base = {

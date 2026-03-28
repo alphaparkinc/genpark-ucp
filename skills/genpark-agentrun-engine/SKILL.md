@@ -1,5 +1,5 @@
-# Skill: genpark-mulerun-engine
-# Description: Reverse-engineered MuleRun always-on AI workforce system. Orchestrates persistent, proactive AI agents that execute end-to-end workflows on dedicated cloud VMs.
+# Skill: genpark-agentrun-engine
+# Description: Reverse-engineered AgentRun always-on AI workforce system. Orchestrates persistent, proactive AI agents that execute end-to-end workflows on dedicated cloud VMs.
 
 ## Core Capabilities
 1. **Always-On Persistence**: Agents run 24/7 on dedicated virtual environments, continuing tasks even when the user is offline.
